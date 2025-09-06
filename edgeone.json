@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "static_assets": {
+    "directory": "public"
+  },
+  "functions": {
+    "rewrites": {
+      "/*": "/_worker.js"
+    }
+  }
+}
